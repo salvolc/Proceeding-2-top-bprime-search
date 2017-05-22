@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.28)  3 MAY 2017 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.28)  22 MAY 2017 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1744,68 +1744,54 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count152
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--40
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+<plot.png, id=1, 168.29877pt x 208.8603pt>
+File: plot.png Graphic file (type png)
+ <use plot.png>
+Package pdftex.def Info: plot.png used on input line 92.
+(pdftex.def)             Requested size: 227.62204pt x 282.48145pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 92--93
+ [][] 
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 51--57
-\OT1/cmr/m/n/10.95 li-sions. The sil-i-con pixel de-tec-tor of the
+Underfull \hbox (badness 1394) in paragraph at lines 76--113
+[]$ \OT1/cmr/m/n/10.95 and the strong cou-pling
  []
 
-
-Underfull \hbox (badness 1436) in paragraph at lines 51--57
-\OT1/cmr/m/n/10.95 CMS de-tec-tor cov-ers $0 \OML/cmm/m/it/10.95 < \OT1/cmr/m/n
-/10.95 ^^H \OML/cmm/m/it/10.95 < \OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 ^^Y$ \
-OT1/cmr/m/n/10.95 az-
- []
+[1{/home/salv/.local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 51--57
-\OT1/cmr/m/n/10.95 used. Muons can be de-tected us-ing the
- []
-
-
-Underfull \vbox (badness 8019) has occurred while \output is active []
-
-
-Underfull \vbox (badness 8019) has occurred while \output is active []
-
- [1{/home/salv/.local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-}
-
-
-] [2]
-(./proceedings.aux) ) 
+] [2 <./plot.png>] (./proceedings.aux) ) 
 Here is how much of TeX's memory you used:
- 12790 strings out of 493027
- 272669 string characters out of 6130911
- 332230 words of memory out of 5000000
- 16249 multiletter control sequences out of 15000+600000
- 19108 words of font info for 75 fonts, out of 8000000 for 9000
+ 12783 strings out of 493027
+ 272554 string characters out of 6130911
+ 336230 words of memory out of 5000000
+ 16242 multiletter control sequences out of 15000+600000
+ 16685 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,61p,10390b,1122s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/salv/.local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb></home/salv/.local/texlive/2015/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></home/salv/.local/texlive/2015/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></home/salv/.local/texlive/2015/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/salv/.local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/salv/.local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/salv/.local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/salv/.local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/salv/.l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/sal
-v/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home
-/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+ 45i,14n,61p,10390b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/salv/.local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/salv/.local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/salv/.local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/salv/.local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/salv/.lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/sal
+v/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></hom
+e/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
 .pfb></home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti12.pfb></home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmtt10.pfb>
-Output written on ./proceedings.pdf (2 pages, 161719 bytes).
+cmr8.pfb></home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></home/salv/.local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb>
+Output written on ./proceedings.pdf (2 pages, 681506 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
