@@ -22,6 +22,8 @@
 ]{siunitx}
 \usepackage{amsmath,amssymb}
 
+\usepackage[verbose]{placeins}
+
 \begin{document}
 \thispagestyle{empty}
 
@@ -41,7 +43,7 @@ Since the new quarks are searched in hadronic $Z^0$ decays the center of mass en
 %####################################################################################################################
 %###################################################MOTIVATION#######################################################
 %####################################################################################################################
-The Standard Model provides evidence towards the existence of the top quark, which has not been found by the time the search has been performed, due to the bottom quark as its isospin doublet partner missing neutral current decays and showing a forward-backward charge asymmetry in $e^+ e^-$ annihilation experiments.
+The Standard Model provides evidence towards the existence of the top quark, which has not been found by the time the search has been performed, due to the bottom quark as its isospin doublet partner missing neutral current decays \cite{FCNC} and showing a forward-backward charge asymmetry in $e^+ e^-$ annihilation experiments \cite{NAROSKA198767}.
 An additional fermion family with a possible $b'$ quark has no constrain towards its mass due to the missing Standard Model prediction.
 Therefore, a $b'$ could be lighter then a top quark.
 %This additional quark can either decay in a charged current ${b' \rightarrow c W}$ including a small mixing element ${V_{cb'}}$, in neutral current ${b' \rightarrow b\gamma}$,${b' \rightarrow bg}$ or including the possibility of a light charged Higgs doublet the top and $b'$ could decay through the channels ${t \rightarrow bH^+}$ and ${b' \rightarrow cH^-}$.\\
@@ -66,11 +68,11 @@ This first selection criteria are an energy disposition exceeding ${\SI{6}{GeV}}
 %###################################################SHAPE VARIABLES##################################################
 %####################################################################################################################
 This analysis is based on the information provided by event shape variables.
-Those event shape variables contain information about the topological form of an event and are sensitive to new heavy quarks due to the topological change of the decays with heavy patricles creating more perpendicular momentum.
+Those event shape variables contain information about the topological form of an event and are sensitive to new heavy quarks due to the topological change of the decays with heavy patricles creating more perpendicular momentum towards the plane most momenta can be assigned to.
 One advantage for the use of shape variables for obtaining mass limits of the top quark toward other methods like high $p_T$ detection of semi leptonic quark decays, is the independence of Standard Model predictions for the branching ratios.
 Due to inherent quark fragmentation the shape variables have a new source of uncertainties which, however, are reasonably well understood for the purpose of this search.
 Those events shape variables are for example thrust, sphericity and acoplanarity.
-For quark masses between $\SI{25}{GeV}$ and $\SI{45}{GeV}$ acoplanarity is the most effective variable which is defined as
+For quark masses between $\SI{25}{GeV}$ and $\SI{45}{GeV}$ acoplanarity is the most effective variable which is defined as \cite{shape}
 \begin{equation*}
 	A = 4 \, min\left(\frac{\sum_i |p_{i,T}|}{\sum_i |p_i|}\right)
 \end{equation*}
@@ -85,17 +87,19 @@ The selection for the tracking chamber consists of at least $20$ measured points
 %####################################################################################################################
 %###################################################DIE ANALYSE######################################################
 %####################################################################################################################
-The analysis for the search is performed in both the ECAL and the tracking chamber separately in order to yield a crosscheck and only uses charge current with a mass of $\SI{35}{GeV}$ for the Monte Carlo predictions which are provided for five quarks and five quarks + top or b'.
-The resulting distribution of the acoplanarity for the ECAL and the mentioned Monte Carlo can be seen in fig. \ref{fig:aco}.
-\begin{figure}
+\FloatBarrier
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.5\textwidth]{plot.png}
 	\caption{Acoplanarity measured by the electromagnetic calorimeter and Monte Carlo with charged current decays of top and $b'$ for a mass of $\SI{35}{GeV}$.\cite{paper}}
 	\label{fig:aco}
 \end{figure}
+The analysis for the search is performed in both the ECAL and the tracking chamber separately in order to yield a crosscheck and only uses charge current with a mass of $\SI{35}{GeV}$ for the Monte Carlo predictions which are provided for five quarks and five quarks + top or b'.
+The resulting distribution of the acoplanarity for the ECAL and the mentioned Monte Carlo can be seen in fig. \ref{fig:aco}.
 In the figure a good agreement between the data and the Monte Marlo using five quark is shown.
 This result is supported by the data of the sphericity and thrust and also by the track chamber measurement yielding a cross check of the result.
-Therefore there is no further evidence for a sixth quark within the kinematic limits of this analysis.\\
+Therefore, there is no further evidence for a sixth quark in the shape variables within the kinematic limits of this analysis.
+The analysis is sensitive to quark masses greater then $\SI{23}{GeV}$ and its upper limit is caused by the $Z^0$ mass containing the sensitivity for the quark masses to be smaller then $\SI{45}{GeV}$. \\
 %####################################################################################################################
 %###################################################MASSEN LIMITS####################################################
 %####################################################################################################################
@@ -109,11 +113,15 @@ Choosing the least stringent mass limit for both top and $b'$ of all calculated 
 %####################################################################################################################
 %###################################################EINORDNUNG#######################################################
 %####################################################################################################################
-Considering the 
+%Considering the 
 
 
 \begin{thebibliography}{99}
+\bibitem{FCNC} A. Bean et al., Improved upper limit on flavor-changing neutral-current decays of the b quark, Phys. Rev. D 35 (1987) 3533
+\bibitem{NAROSKA198767} B. Naroska, $e^+e^-$ physics with the jade detector at petra, Phys. Rep. 148 (1987) 67
 \bibitem{paper} OPAL Collaboration, A search for the top and $b'$ quarks in hadronic $Z^0$ decays, Phys. Lett. B 236 (1990) 364
+\bibitem{shape} A. De Rujula, J. Ellis, E.G. Floratos and M.K. Gaillard, Nucl.
+Phys. B 138 (1978) 387
 \end{thebibliography}
 
 

@@ -64,6 +64,8 @@ INPUT /home/salv/.local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /home/salv/.local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /home/salv/.local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /home/salv/.local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /home/salv/.local/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
+INPUT /home/salv/.local/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT ./proceedings.aux
 INPUT ./proceedings.aux
 OUTPUT ./proceedings.aux
@@ -146,11 +148,11 @@ INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+OUTPUT ./proceedings.pdf
+INPUT /home/salv/.local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT plot.png
 INPUT ./plot.png
-OUTPUT ./proceedings.pdf
 INPUT ./plot.png
-INPUT /home/salv/.local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./proceedings.aux
